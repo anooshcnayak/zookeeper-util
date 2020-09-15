@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+    "lib": ["es6", "dom"],
+    "declaration": true,
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "outDir": "./lib"
+  },
+  "include": ["src"]
+}
+
+

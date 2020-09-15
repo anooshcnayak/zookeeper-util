@@ -1,0 +1,32 @@
+{
+  "name": "zookeeper-util",
+  "version": "1.0.0",
+  "description": "Zookeeper, Util, ZK",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anooshcnayak/zookeeper-util.git"
+  },
+  "keywords": [
+    "ZK",
+    "zookeeper",
+    "util"
+  ],
+  "author": "Anoosh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "node-zookeeper-client": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/anooshcnayak/zookeeper-util/issues"
+  },
+  "homepage": "https://github.com/anooshcnayak/zookeeper-util#readme"
+}
