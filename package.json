@@ -1,6 +1,6 @@
 {
   "name": "zookeeper-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zookeeper, Util, ZK",
   "main": "lib/index.js",
   "scripts": {
