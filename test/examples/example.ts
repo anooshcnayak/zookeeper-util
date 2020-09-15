@@ -7,7 +7,9 @@ ZkUtil.init({
 }).then(() => {
   console.log("connected");
 
-  ZkUtil.getProperty('foo', PropertyType.STRING).then((data) => {
+  ZkUtil.getProperty('foo', PropertyType.STRING, (err: Error, data: any) => {
+    console.log("Watcher", err, data);
+  }).then((data) => {
     console.log(data);
   }).catch(err => {
     // console.log(err);
