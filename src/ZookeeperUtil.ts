@@ -19,7 +19,7 @@ class ZkUtil {
     this.client = undefined;
   }
 
-  async init(zkInfo: any, watcher?: any): Promise<void> {
+  async init(zkInfo: any): Promise<void> {
     assert(
       zkInfo && typeof zkInfo === "object",
       "zkInfo should be an object and NOT null"
@@ -39,10 +39,10 @@ class ZkUtil {
 
     this.path = zkInfo.basePath;
 
-    if (watcher) {
-      assert(typeof watcher === "function", "Watcher must be a Function");
-      this.watchers[this.path] = watcher;
-    }
+    // if (watcher) {
+    //   assert(typeof watcher === "function", "Watcher must be a Function");
+    //   this.watchers[this.path] = watcher;
+    // }
 
     this.client = zookeeper.createClient(
       zkInfo.connectionParam,

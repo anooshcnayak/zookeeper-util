@@ -1,6 +1,5 @@
-import ZkUtil from './ZkUtil';
+import ZookeeperUtil from '../../matrix/src/common/utils/ZookeeperUtil';
 
-export {PropertyType} from './PropertyType'
+export { PropertyType } from "./PropertyType";
 
-export default new ZkUtil();
-
+export default new ZookeeperUtil();
