@@ -1,4 +1,4 @@
-import ZookeeperUtil from '../../matrix/src/common/utils/ZookeeperUtil';
+import ZookeeperUtil from "./ZookeeperUtil";
 
 export { PropertyType } from "./PropertyType";
 
